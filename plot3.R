@@ -1,7 +1,7 @@
 ## Plot 3
 
 ## open PNG 
-png(file = "./Electric Power Consumption/plot3.png")
+png(file = "./ElectricPowerConsumption/plot3.png", width = 480, height = 480)
 
 ## the subset data from plot1 will be re-used. 
 ## plot 

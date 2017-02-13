@@ -1,10 +1,10 @@
 ## Plot 1
 
 ## open PNG 
-png(file = "./Electric Power Consumption/plot1.png")
+png(file = "./ElectricPowerConsumption/plot1.png", width = 480, height = 480)
 
 ## read the original data
-original_data <- read.table("./Electric Power Consumption/household_power_consumption.txt", 
+original_data <- read.table("./ElectricPowerConsumptionData/household_power_consumption.txt", 
                             sep=";", header = TRUE)
 ## Using Date and Time columns, create a new column "Newtime" and subset the data
 ## of 2007-02-01 and 2007-02-02.

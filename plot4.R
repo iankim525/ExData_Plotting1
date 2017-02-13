@@ -1,7 +1,7 @@
 ## Plot 4
 
 ## open PNG 
-png(file = "./Electric Power Consumption/plot4.png")
+png(file = "./ElectricPowerConsumption/plot4.png", width = 480, height = 480)
 
 ## set up a 2x2 frame for the plots
 par(mfrow = c(2,2), mar = c(4,4,2,2))
